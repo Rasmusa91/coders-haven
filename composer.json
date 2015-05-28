@@ -1,0 +1,25 @@
+{
+    "name": "appelicious/flash",    
+    "type": "library",
+    "description": "Flash messages easily with Anax-MVC",
+    "keywords": ["flash", "anax", "education"],
+    "homepage": "http://dbwebb.se/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rasmus Appelqvist",
+            "email": "rasmus.a-91@hotmail.com",
+            "homepage": "http://www.student.bth.se/~raap11/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+		"anax/mvc": "dev-master",
+		"mos/cform": "2.*@dev",
+		"mos/cdatabase": "dev-master"
+    },
+    "autoload": {
+        "psr-4": { "Appelicious\\": "src/" }
+    }
+}

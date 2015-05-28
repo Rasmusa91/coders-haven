@@ -1,0 +1,35 @@
+#topbarLeft,
+#topbarRight,
+#header #logo,
+#header #navbar,
+#footerLeft,
+#footerRight {
+    .column(@columns / 2);
+}
+
+#header #logo {
+    .column(@columns / 3);	
+}
+
+#header #navbar {
+    .column(@columns / 3 * 2);	
+}
+
+#main {
+	.column(@columns);
+}
+
+#preFooter1,
+#preFooter2,
+#preFooter3,
+#preFooter4 {
+	.column(@columns / 4);	
+}
+
+#wrapper,
+#topbarWrapper,
+#headerWrapper,
+#preFooterWrapper,
+#footerWrapper {
+	.clearfix();
+}
